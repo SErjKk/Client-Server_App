@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="527.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="324.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InfoController">
+   <children>
+      <AnchorPane layoutY="68.0" prefHeight="345.0" prefWidth="324.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="idLabel" layoutX="11.0" layoutY="10.0" prefHeight="23.0" prefWidth="304.0" text="Транспортное средство:  " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel" layoutX="11.0" layoutY="33.0" prefHeight="23.0" prefWidth="304.0" text="Название: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="coordLabel" layoutX="11.0" layoutY="56.0" prefHeight="23.0" prefWidth="240.0" text="Координаты: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="79.0" prefHeight="23.0" prefWidth="240.0" text="X: " textAlignment="CENTER" textFill="#070f17" fx:id="xLabel">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="yLabel" layoutX="42.0" layoutY="102.0" prefHeight="23.0" prefWidth="240.0" text="Y: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateLabel" layoutX="11.0" layoutY="125.0" prefHeight="23.0" prefWidth="304.0" text="Дата создания: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="powerLabel" layoutX="11.0" layoutY="148.0" prefHeight="23.0" prefWidth="304.0" text="Мощность двигателя: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="capacityLabel" layoutX="11.0" layoutY="171.0" prefHeight="23.0" prefWidth="304.0" text="Вместимость: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="typeLabel" layoutX="11.0" layoutY="194.0" prefHeight="23.0" prefWidth="270.0" text="Тип: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="fuelLabel" layoutX="11.0" layoutY="217.0" prefHeight="23.0" prefWidth="304.0" text="Тип топлива: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ownerLabel" layoutX="11.0" layoutY="240.0" prefHeight="23.0" prefWidth="304.0" text="Владелец: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="delete_button" layoutX="31.0" layoutY="280.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text=" Удалить">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="change_button" layoutX="174.0" layoutY="280.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Изменить">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="39.0" layoutY="2.0" prefHeight="63.0" prefWidth="252.0" text="VEHICLE INFO" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Calibri Bold Italic" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
