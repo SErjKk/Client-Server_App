@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="527.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="214.0" prefWidth="324.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DeleteController">
+   <children>
+      <AnchorPane layoutY="68.0" prefHeight="125.0" prefWidth="324.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="idLabel" layoutX="9.0" layoutY="36.0" prefHeight="23.0" prefWidth="174.0" text="Значение id элемента:" textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idField" layoutX="180.0" layoutY="35.0" prefHeight="25.0" prefWidth="135.0" />
+            <Button fx:id="delete_button" layoutX="96.0" layoutY="75.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="135.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Удалить">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="90.0" prefHeight="63.0" prefWidth="252.0" text="DELETE" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Calibri Bold Italic" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="527.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="900.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ShowController">
+   <children>
+      <AnchorPane layoutY="115.0" prefHeight="412.0" prefWidth="900.0" style="-fx-background-color: white;">
+         <children>
+            <AnchorPane layoutY="377.0" prefHeight="35.0" prefWidth="900.0" style="-fx-background-color: #2E3348;">
+               <children>
+                  <Label fx:id="ownerLabel" layoutX="10.0" layoutY="5.0" prefHeight="23.0" prefWidth="240.0" text="Текущий пользователь: " textAlignment="CENTER" textFill="DODGERBLUE">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Pane fx:id="pane" layoutX="14.0" layoutY="5.0" prefHeight="367.0" prefWidth="874.0" style="-fx-background-color: #E6E6FA; -fx-opacity: 0.2; -fx-border-color: #2E3348;" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="exit_button" layoutX="780.0" layoutY="14.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="106.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Выйти">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="table_button" layoutX="486.0" layoutY="14.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="163.0" style="-fx-background-color: #AFEEEE; -fx-background-radius: 15;" text="Таблица">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="restart_button" layoutX="657.0" layoutY="14.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Обновить">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="20.0" layoutY="5.0" prefHeight="63.0" prefWidth="421.0" text="CLIENT–SERVER APP" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Calibri Bold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="41.0" prefHeight="51.0" prefWidth="327.0" text="lаb 8" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Century Gothic" size="19.0" />
+         </font>
+      </Label>
+      <Group fx:id="group" layoutY="115.0" />
+   </children>
+</AnchorPane>
