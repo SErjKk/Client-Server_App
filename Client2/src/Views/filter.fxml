@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="527.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="228.0" prefWidth="397.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FilterController">
+   <children>
+      <AnchorPane layoutY="68.0" prefHeight="139.0" prefWidth="397.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="field" layoutX="286.0" layoutY="35.0" prefHeight="25.0" prefWidth="96.0" promptText="Значение:" />
+            <Button fx:id="filter_button" layoutX="131.0" layoutY="87.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="135.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Применить">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="fieldBox" layoutX="14.0" layoutY="35.0" prefHeight="25.0" prefWidth="121.0" promptText="Выбор поля:" />
+            <ComboBox fx:id="conditionBox" layoutX="150.0" layoutY="35.0" prefHeight="25.0" prefWidth="121.0" promptText="Условие:" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="81.0" layoutY="2.0" prefHeight="63.0" prefWidth="252.0" text="FILTER FIELDS" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Calibri Bold Italic" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

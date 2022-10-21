@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="527.0" maxWidth="900.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="324.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddController">
+   <children>
+      <AnchorPane layoutY="68.0" prefHeight="336.0" prefWidth="324.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="nameLabel" layoutX="11.0" layoutY="14.0" prefHeight="23.0" prefWidth="84.0" text="Название: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="coordLabel" layoutX="11.0" layoutY="41.0" prefHeight="23.0" prefWidth="100.0" text="Координаты: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="66.0" prefHeight="23.0" prefWidth="38.0" text="X: " textAlignment="CENTER" textFill="#070f17" fx:id="xLabel">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="yLabel" layoutX="42.0" layoutY="95.0" prefHeight="23.0" prefWidth="29.0" text="Y: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="powerLabel" layoutX="14.0" layoutY="127.0" prefHeight="23.0" prefWidth="159.0" text="Мощность двигателя: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="capacityLabel" layoutX="14.0" layoutY="161.0" prefHeight="23.0" prefWidth="109.0" text="Вместимость: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="typeLabel" layoutX="14.0" layoutY="198.0" prefHeight="23.0" prefWidth="38.0" text="Тип: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="fuelLabel" layoutX="14.0" layoutY="231.0" prefHeight="23.0" prefWidth="100.0" text="Тип топлива: " textAlignment="CENTER" textFill="#070f17">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="add_button" layoutX="73.0" layoutY="274.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="173.0" style="-fx-background-color: #DAA520; -fx-background-radius: 15;" text="Добавить">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <TextField fx:id="nameField" layoutX="98.0" layoutY="14.0" prefHeight="25.0" prefWidth="206.0" />
+            <TextField layoutX="71.0" layoutY="64.0" prefHeight="25.0" prefWidth="84.0" fx:id="xField" />
+            <TextField fx:id="yField" layoutX="71.0" layoutY="96.0" prefHeight="25.0" prefWidth="84.0" />
+            <TextField fx:id="powerField" layoutX="173.0" layoutY="128.0" prefHeight="11.0" prefWidth="132.0" />
+            <TextField fx:id="capacityField" layoutX="173.0" layoutY="162.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="typeField" layoutX="173.0" layoutY="196.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="fuelField" layoutX="173.0" layoutY="230.0" prefHeight="25.0" prefWidth="132.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="78.0" prefHeight="63.0" prefWidth="219.0" text="АDDING" textAlignment="CENTER" textFill="DODGERBLUE">
+         <font>
+            <Font name="Calibri Bold Italic" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
